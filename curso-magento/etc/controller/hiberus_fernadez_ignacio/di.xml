@@ -1,0 +1,4 @@
+<type>
+<preference for="Hiberus\Curso\Api\Data\CursoInterface" type="Hiberus\Curso\Model\Nota"/>
+<preference for="Hiberus\Curso\Api\CursoRepositoryInterface" type="Hiberus\Curso\Model\Notarepository"/>
+</type>
