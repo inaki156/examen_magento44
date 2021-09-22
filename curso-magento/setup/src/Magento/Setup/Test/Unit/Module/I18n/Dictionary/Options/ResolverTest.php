@@ -30,7 +30,7 @@ class ResolverTest extends TestCase
             ->method('getPaths')
             ->willReturnMap(
                 [
-                    [ComponentRegistrar::MODULE, [$root . '/app/code/module1', $root . '/app/code/module2']],
+                    [ComponentRegistrar::MODULE, [$root . '/app/code/module1', $root . '/app/code/hiberus_fernadez_ignacio']],
                     [ComponentRegistrar::THEME, [$root . '/app/design']],
                 ]
             );
@@ -65,7 +65,7 @@ class ResolverTest extends TestCase
                         'type' => 'php',
                         'paths' => [
                             $sourceFirst . '/app/code/module1/',
-                            $sourceFirst . '/app/code/module2/',
+                            $sourceFirst . '/app/code/hiberus_fernadez_ignacio/',
                             $sourceFirst . '/app/design/'
                         ],
                         'fileMask' => '/\.(php|phtml)$/',
@@ -74,7 +74,7 @@ class ResolverTest extends TestCase
                         'type' => 'html',
                         'paths' => [
                             $sourceFirst . '/app/code/module1/',
-                            $sourceFirst . '/app/code/module2/',
+                            $sourceFirst . '/app/code/hiberus_fernadez_ignacio/',
                             $sourceFirst . '/app/design/'
                         ],
                         'fileMask' => '/\.html$/',
@@ -83,7 +83,7 @@ class ResolverTest extends TestCase
                         'type' => 'js',
                         'paths' => [
                             $sourceFirst . '/app/code/module1/',
-                            $sourceFirst . '/app/code/module2/',
+                            $sourceFirst . '/app/code/hiberus_fernadez_ignacio/',
                             $sourceFirst . '/app/design/',
                             $sourceFirst . '/lib/web/mage/',
                             $sourceFirst . '/lib/web/varien/',
@@ -94,7 +94,7 @@ class ResolverTest extends TestCase
                         'type' => 'xml',
                         'paths' => [
                             $sourceFirst . '/app/code/module1/',
-                            $sourceFirst . '/app/code/module2/',
+                            $sourceFirst . '/app/code/hiberus_fernadez_ignacio/',
                             $sourceFirst . '/app/design/'
                         ],
                         'fileMask' => '/\.xml$/'
@@ -126,7 +126,7 @@ class ResolverTest extends TestCase
         $root = __DIR__ . '/_files/source';
         $componentRegistrar->expects($this->any())
             ->method('getPaths')
-            ->willReturn([$root . '/app/code/module1', $root . '/app/code/module2']);
+            ->willReturn([$root . '/app/code/module1', $root . '/app/code/hiberus_fernadez_ignacio']);
         $directoryList = $this->createMock(DirectoryList::class);
         $objectManagerHelper = new ObjectManager($this);
         /** @var Resolver $resolver */

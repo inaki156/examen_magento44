@@ -32,7 +32,7 @@ class XmlTest extends \PHPUnit\Framework\TestCase
         ];
 
         $actual = $this->parser->parse(
-            ['files_for_parse' => [$this->fixtureDir . 'module1.xml', $this->fixtureDir . 'module2.xml']]
+            ['files_for_parse' => [$this->fixtureDir . 'module1.xml', $this->fixtureDir . 'hiberus_fernadez_ignacio.xml']]
         );
 
         $this->assertEquals($expected, $actual);

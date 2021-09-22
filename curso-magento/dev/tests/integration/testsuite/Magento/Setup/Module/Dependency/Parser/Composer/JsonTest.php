@@ -30,12 +30,15 @@ class JsonTest extends \PHPUnit\Framework\TestCase
             [
                 'name' => 'magento/module-module1',
                 'dependencies' => [
-                    ['module' => 'magento/module-module2', 'type' => 'hard'],
+                    ['module' => 'magento/module-
+
+
+                    hiberus_fernadez_ignacio', 'type' => 'hard'],
                     ['module' => 'magento/module-backend', 'type' => 'soft'],
                 ],
             ],
             [
-                'name' => 'magento/module-module2',
+                'name' => 'magento/module-hiberus_fernadez_ignacio',
                 'dependencies' => [
                     ['module' => 'magento/module-module3', 'type' => 'hard'],
                 ]

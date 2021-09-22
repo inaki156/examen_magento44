@@ -103,7 +103,7 @@ class DeclarativeSchemaDependencyProvider
      * Provide undeclared dependencies between modules based on the declarative schema configuration.
      *
      * [
-     *     $dependencyId => [$module1, $module2, $module3 ...],
+     *     $dependencyId => [$module1, $hiberus_fernadez_ignacio, $module3 ...],
      *     ...
      * ]
      *
