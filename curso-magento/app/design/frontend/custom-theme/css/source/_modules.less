@@ -1,0 +1,12 @@
+& when(@media-common=true){
+    .page-footer{
+        display: none;
+    }
+    .media-width(@extremun,@break)when(@extremun ='max' ) and(@break=@screan){
+        .page-wrapper {
+            .page-footer {
+                display: block;
+            }
+        }
+    }
+}

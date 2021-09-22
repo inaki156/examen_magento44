@@ -1,0 +1,6 @@
+
+
+
+
+<referenceContainer name="customer.login.container">
+<referenceBlock name="customer.new" template="hiberus_customer">

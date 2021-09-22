@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/event.xsd">
+    <module name="Fernandez_ignacio">
+    <sequence>
+        <module name="fernandez_adm"/>
+     </sequence>
+    </module>
+</config>

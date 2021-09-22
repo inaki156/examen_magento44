@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/event.xsd">
+   <type name="Magento\theme\Model\View\Design">
+       <argument>
+        <arguments name="themes" xsi:type="array">
+        <item name="adminhtml" xsi:type="string">Fernandez/ignacio</item>
+        </arguments>
+       </argument>
+   </type>
+</config>
