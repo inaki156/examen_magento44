@@ -33,7 +33,7 @@ class Curso extends AbstractDb implements \Hiberus\Curso\api\Data\CursoInterface
      */
     public function setNombre($nombre)
     {
-        // TODO: Implement setNombre() method.
+
     }
 
     /**
@@ -41,7 +41,7 @@ class Curso extends AbstractDb implements \Hiberus\Curso\api\Data\CursoInterface
      */
     public function getApellido()
     {
-        // TODO: Implement getApellido() method.
+
     }
 
     /**
@@ -65,7 +65,6 @@ class Curso extends AbstractDb implements \Hiberus\Curso\api\Data\CursoInterface
     protected function _construct()
     {
         return $this->_init(\Hiberus\Curso\api\Data\CursoInterface::TABLE_NAME, \Hiberus\Curso\api\Data\CursoInterface::COLUMNS_ID);
-
     }
 
     public function save(Magento\Catalog\Model\AbstractModel $object)

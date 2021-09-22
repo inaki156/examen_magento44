@@ -1,0 +1,9 @@
+
+ejercio 1.
+ crearemos  una carperta Module  y le creamos el subdirectorio  resourceModel y añadimos  un par de clases.
+en la carpeta Hiberus\Curso\api\Data crearemos una entidad de nota.
+Luego en nuestra carpeta module_hiberus_fernandez_Ignacio nos meteremos a la clase abstactModel e implementaremos la NotaInterfaces
+
+
+ejercio 5
+en la carpeta Controller creamos un nuevo controlador  y creamos un index.phtml con  un echo hola
