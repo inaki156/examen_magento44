@@ -7,7 +7,7 @@
         <column xsi:type="varchar" name="lastname" length="50" unsigned="true" nullable="false" />
         <column xsi:type="decimal" name="mark" on_update="false" nullable="false" default="CURRENT_TIMESTAMP" />
         <constraint xsi:type="primary" referenceId="PRIMARY">
-            <column name="entity_id" />
+            <column name="entity_id" />a
         </constraint>
     </table>
 </schema>

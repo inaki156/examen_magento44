@@ -6,6 +6,15 @@ Luego en nuestra carpeta module_hiberus_fernandez_Ignacio nos meteremos a la cla
 Ejercicio 2
 creamos un db_schema2.xml para definir los datos de la tabla
 
+
 ejercio 5
 
 en la carpeta Controller creamos un nuevo controlador  y creamos un index.phtml con  un echo hola
+
+ejercicio 6
+crearemos  un directorio
+app/code/Hiberus/CustomLayout/Controller/layout/Index.php .
+Luego crearemos un Index.php .Después añadidemos la ruta en  un xml
+en la ruta etc/frontend/routes.xml añadimos un router.
+Luego crearemos un nuevo Layout(teniendo en cuenta el id especificado en el elemento route)
+Posteriormente añadidemos un phtml en la ruta app/code/customlayaut/view/template/ejercicio.phtml
